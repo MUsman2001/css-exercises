@@ -1,1 +1,29 @@
 /* Add CSS Styling */
+body{
+    background-color: black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1, .btn-2{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+}
+.btn-1{
+    background-color: black;
+    color: white;
+}
+.btn-2{
+    background-color: yellow;
+}
+.container{
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    gap: 10px;
+}
